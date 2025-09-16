@@ -1,0 +1,52 @@
+@import '../../scss/globals/variables';
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+
+  &__field {
+    margin-bottom: 16px;
+  }
+
+  &__button {
+    background-color: $cerulean;
+    color: $white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $king-triton;
+    }
+
+    &:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+    }
+  }
+
+  &__toggle-auth {
+    margin-top: 16px;
+    text-align: center;
+    color: $alloy;
+    cursor: pointer;
+    font-size: 14px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  input.is-invalid {
+      border: 1px solid red !important;
+      outline: none;
+  }
+
+  .form-field__icon.is-invalid { 
+      filter: invert(19%) sepia(99%) saturate(3999%) hue-rotate(358deg) brightness(103%) contrast(119%) !important;
+  }
+}

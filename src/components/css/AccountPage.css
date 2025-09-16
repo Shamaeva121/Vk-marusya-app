@@ -1,0 +1,212 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+@media (max-width: 375px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+.account-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+}
+
+.account-page__settings {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 0 0 0 80px;
+  background-color: transparent;
+}
+@media (max-width: 375px) {
+  .account-page__settings {
+    margin: 0 0 0 20px;
+  }
+}
+
+.account-page__profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.account-page__name {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.account-page__email {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.account-page__tab {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  position: relative;
+  padding-bottom: 12px;
+}
+.account-page__tab.active {
+  background-color: transparent;
+}
+.account-page__tab.active:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5px;
+  background-color: #dc5dfc;
+}
+
+.account-page__tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+  margin: 0 0 64px 80px;
+}
+@media (max-width: 375px) {
+  .account-page__tabs {
+    gap: 24px;
+    margin: 0 0 0 20px;
+  }
+}
+
+.account-page__tab-label {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.account-page__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  padding: 64px 0;
+  margin: 0 0 0 80px;
+}
+@media (max-width: 375px) {
+  .account-page__title {
+    padding: 16px 0 40px 20px;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+  }
+}
+
+.user-info {
+  margin: 0 0 40px 0;
+}
+
+.user-info__initials {
+  width: 60px;
+  height: 60px;
+  background: var(--background-disabled, rgba(255, 255, 255, 0.5019607843));
+  border-radius: 50%;
+  padding: 14px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin: 0 16px 0 0;
+}
+@media (max-width: 375px) {
+  .user-info__initials {
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+  }
+}
+
+.user-info__name-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 0 4px 0;
+}
+@media (max-width: 375px) {
+  .user-info__name-title {
+    color: var(--content-disabled, rgba(255, 255, 255, 0.5019607843));
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.user-info__name {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+@media (max-width: 375px) {
+  .user-info__name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.user-info__wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 40px 0;
+}
+
+.user-info__email-container {
+  display: flex;
+}
+
+.user-info__icon-mail {
+  width: 60px;
+  height: 60px;
+  background: var(--background-disabled, rgba(255, 255, 255, 0.5019607843));
+  border-radius: 50%;
+  padding: 14px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin: 0 16px 0 0;
+}
+@media (max-width: 375px) {
+  .user-info__icon-mail {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.user-info__email-title {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 0 4px 0;
+}
+@media (max-width: 375px) {
+  .user-info__email-title {
+    color: var(--content-disabled, rgba(255, 255, 255, 0.5019607843));
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.user-info__email {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+}
+@media (max-width: 375px) {
+  .user-info__email {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=AccountPage.css.map */

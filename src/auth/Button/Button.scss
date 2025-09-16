@@ -1,0 +1,39 @@
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease;
+
+  &--primary {
+    background-color: #007bff;
+    color: white;
+    border-radius: 28px;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+
+    &:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+
+  &--secondary {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+
+    &:hover {
+      background-color: rgba(0, 123, 255, 0.1);
+    }
+
+    &:disabled {
+      border-color: #ccc;
+      color: #ccc;
+      cursor: not-allowed;
+    }
+  }
+}

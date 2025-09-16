@@ -1,0 +1,45 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+.login-form__field {
+  margin-bottom: 16px;
+}
+.login-form__button {
+  background-color: #55acee;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.login-form__button:hover {
+  background-color: rgb(38.6363636364, 149.3636363636, 233.3636363636);
+}
+.login-form__button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.login-form__toggle-auth {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-top: 16px;
+  text-align: center;
+  color: var(--content-black, #000000);
+  cursor: pointer;
+}
+.login-form__toggle-auth:hover {
+  text-decoration: underline;
+}
+.login-form input.is-invalid {
+  border: 1px solid red;
+  outline: none;
+}
+.login-form .form-field__icon.is-invalid {
+  filter: invert(19%) sepia(99%) saturate(3999%) hue-rotate(358deg) brightness(103%) contrast(119%) !important;
+}/*# sourceMappingURL=LoginForm.css.map */

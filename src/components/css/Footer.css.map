@@ -1,0 +1,1 @@
+{"version":3,"sources":["../Footer/Footer.scss","Footer.css","../../scss/globals/_mixins.scss"],"names":[],"mappings":"AAIA;EACI,aAAA;EACA,mBAAA;EACA,SAAA;EACA,yBAAA;EACA,cAAA;ACHJ;ACLI;EFGJ;IAQQ,2BAAA;ECFN;AACF;;ADKA;EACI,kBAAA;EACA,yBAAA;EACA,aAAA;EACA,aAAA;EACA,uBAAA;EACA,WAAA;ACFJ;ACnBI;EFeJ;IASQ,WAAA;IACA,gBAAA;ECDN;AACF;;ADIA;EACI,mBAAA;KAAA,gBAAA;ACDJ","file":"Footer.css"}

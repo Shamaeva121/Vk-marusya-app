@@ -1,0 +1,33 @@
+@import '../../scss/globals/mixins';
+@import '../../scss/globals/variables';
+
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: flex-end;
+    margin: 40px 0;
+
+    @include vp-375 {
+        justify-content: flex-start;
+    }
+}
+
+.footer-section__icon-link{
+    border-radius: 8px;
+    border: 1px solid $white;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    width: 36px;
+
+    @include vp-375 {
+        width: 24px;
+        padding: 5px 8px;
+    }
+}
+
+.footer-section__icon {
+    object-fit: none;
+}

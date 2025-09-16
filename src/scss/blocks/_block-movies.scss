@@ -1,0 +1,40 @@
+.block-movies {
+    margin: 0 0 120px 0;
+}
+
+.block-movies__item{
+position: relative;
+}
+
+
+.block-movies__title {
+    margin: 0;
+    padding: 64px 0;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: white;
+}
+
+.block-movies__list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 64px 40px;
+}
+
+.block-movies__image {
+    border-radius: 16px;
+    border: 1px solid #FFFFFF40;
+    box-shadow: 0px 0px 80px 0px #FFFFFF54;
+}
+
+.block-movies__number-image {
+    display: block;
+    background-color: var(--background-white, #FFFFFF);
+    border-radius: 50px;
+    position: absolute;
+    top: -3px;
+    padding: 8px 24px 8px 24px;
+    font-size: 24px;
+    line-height: 32px;
+}
