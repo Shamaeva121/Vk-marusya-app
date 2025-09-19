@@ -161,7 +161,7 @@ function Header({ currentUser, onOpenAuthModal }: HeaderProps) {
             className={`header__nav-icon-link ${location.pathname === '/genres' ? 'active' : ''}`}
             to="/genres"
           >
-            <img src="/icons/icon-genre-mobile.svg" alt="Жанры" />
+            <img src="icons/icon-genre-mobile.svg" alt="Жанры" />
           </Link>
           <button className="header__nav-icon-link header__nav-icon-link--search" onClick={toggleSearch}>
             <img src="icons/icon-search-mobile.svg" alt="Поиск" />
