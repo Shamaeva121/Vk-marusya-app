@@ -101,7 +101,7 @@ function Header({ currentUser, onOpenAuthModal }: HeaderProps) {
       <header className="header">
         <div className="header__logo">
           <Link className="header__logo-link" to="/" aria-label="Ссылка на главную страницу">
-            <img className="header__logo-img" src="/icons/logo-icon.svg" width="143" height="32" alt="Ссылка на главную страницу" />
+            <img className="header__logo-img" src="icons/logo-icon.svg" width="143" height="32" alt="Ссылка на главную страницу" />
           </Link>
         </div>
         <nav className="header__nav">
