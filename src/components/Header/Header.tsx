@@ -124,7 +124,7 @@ function Header({ currentUser, onOpenAuthModal }: HeaderProps) {
             </li>
             <li className="header__nav-item header__nav-item--search">
               <div className="header__search">
-                <img className="header__nav-search-icon" src="/icons/icon-search.svg" width="24" height="24" alt="Поиск" />
+                <img className="header__nav-search-icon" src="icons/icon-search.svg" width="24" height="24" alt="Поиск" />
                 <input
                   type="text"
                   placeholder="Поиск"
@@ -164,7 +164,7 @@ function Header({ currentUser, onOpenAuthModal }: HeaderProps) {
             <img src="/icons/icon-genre-mobile.svg" alt="Жанры" />
           </Link>
           <button className="header__nav-icon-link header__nav-icon-link--search" onClick={toggleSearch}>
-            <img src="/icons/icon-search-mobile.svg" alt="Поиск" />
+            <img src="icons/icon-search-mobile.svg" alt="Поиск" />
           </button>
           {currentUser ? (
             <Link
@@ -187,7 +187,7 @@ function Header({ currentUser, onOpenAuthModal }: HeaderProps) {
       {isSearchActive && (
         <div className="mobile-search-overlay">
           <div className="mobile-search-bar">
-            <img className="mobile-search-bar__icon" src="/icons/icon-search.svg" alt="Поиск" />
+            <img className="mobile-search-bar__icon" src="icons/icon-search.svg" alt="Поиск" />
             <input
               type="text"
               placeholder="Поиск"
@@ -197,7 +197,7 @@ function Header({ currentUser, onOpenAuthModal }: HeaderProps) {
               autoFocus
             />
             <button className="mobile-search-bar__clear" onClick={toggleSearch}>
-              <img src="/icons/icon-back-search-mobile.svg" alt="Закрыть" />
+              <img src="icons/icon-back-search-mobile.svg" alt="Закрыть" />
             </button>
           </div>
           {searchQuery && (searchResults.length > 0 || filteredMovies.length > 0) && (
